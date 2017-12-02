@@ -4,7 +4,7 @@ setup(name="calc",
       entry_points={
           'console_scripts': [
               'calc = calc:main', ]},
-      version="0.0.2",
+      version="0.0.3",
       description="A Simple Tkinter Calc",
       author="Oles Pisarenko",
       author_email="doctor.mailbox@mail.ru",
