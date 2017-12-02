@@ -58,6 +58,7 @@ def main():
     equal = Button(text="=", command=lambda: operation("=")).grid(row=4, column=2)
 
     # system
+
     clear = Button(text="C", command=lambda: operation("clear")).grid(row=5, column=0, columnspan=3)
 
     # TODO: Keyboard support
