@@ -1,10 +1,11 @@
 from tkinter import *
 
+str_result = ""
+root = Tk()
+root.title("Calc")
+
 
 def main():
-    root = Tk()
-    root.title("Calc")
-    str_result = ""
 
     def obj(string):
         global str_result
