@@ -3,7 +3,7 @@ from distutils.core import setup
 setup(name="calc",
       entry_points={
           'console_scripts': [
-              'snek = snek:main', ]},
+              'calc = calc:main', ]},
       version="0.0.2",
       description="A Simple Tkinter Calc",
       author="Oles Pisarenko",
